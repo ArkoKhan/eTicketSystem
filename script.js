@@ -59,7 +59,6 @@ form.addEventListener("submit", function(e) {
     calculateTicket();
 });
 
-deleteFn()
 
 
 
