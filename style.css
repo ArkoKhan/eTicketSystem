@@ -1,0 +1,190 @@
+
+/* COMMON */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 1.1rem;
+    
+}
+
+body {
+    background-color: rgb(218, 214, 246);
+    color: #000084;
+   
+}
+
+
+/* DARK MODE BTN STYLE */
+.lightbtn {
+    margin:0 0 20px auto;
+    border: 5px solid #a1bd03;
+    text-align: center;
+    width: 100px;
+    padding: 5px 10px;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 22px;
+    background-color: #ffff21;
+    color: #08085b;
+    cursor: pointer;
+}
+
+.darkbtn {
+    margin:0 0 20px auto;
+    background-color: #000000;
+    color: #00ff00;
+    
+}
+
+
+/* =============== FORM============== */
+
+form {
+    width:400px;
+    margin: 10px auto;
+    border: 5px solid #717171;
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+
+/* ALL LEBELS */
+label {
+    margin-left: 8px;
+}
+
+/* NAME INPUT */
+#name {
+    width: 100px;
+    height: 25px;
+    background-color: #cfcff1;
+    border: 2px solid #78e04e;
+    text-align: center;
+    
+}
+
+/* AGE INPUT */
+#age {
+    margin-left: 16px;
+    width: 100px;
+    height: 25px;
+    background-color: #cfcff1;
+    border: 2px solid #78e04e;
+    text-align: center;   
+}
+
+/* TICKEL INPUT */
+#ticket {
+    /* margin-left: 13px; */
+    width: 100px;
+    height: 25px;
+    background-color: #cfcff1;
+    border: 2px solid #78e04e;
+    text-align: center;   
+}
+
+select {
+    margin-left: 33px;
+    width: 110px;
+    height: 25px;
+    background-color: #cfcff1;
+    border: 2px solid #78e04e;
+    /* text-align: center;  */
+    
+}
+
+/* BTM OF FORM */
+.form__btn {
+    margin-left: 110px;
+    padding: 5px 50px;
+    cursor: pointer;
+    background-color: #2807e6;
+    color: #cfcff1;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.form__btn:hover {
+    background-color: #1a0596; 
+}
+/* ==================================================== */
+
+/* ==================TABLE======================== */
+
+table {
+    margin: 50px auto;
+    line-height: 1.8rem;
+}
+table tr {
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #8881db;
+}
+table tr:nth-child(odd) {
+    background-color: rgb(163, 163, 210);
+}
+
+table tr th {
+    background-color: #d80799;
+    padding: 5px 25px;
+}
+
+.delete_btn {
+    cursor: pointer;
+}
+
+
+
+
+
+/* DARK MODE BODY STYLE */
+.dark_body {
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+.dark_body #name {
+    background-color: #7e7e7e;
+    border: 2px solid #78e04e;
+    caret-color: #ffff00; 
+    color: #3ce7f0; 
+}
+.dark_body #age {
+    background-color: #7e7e7e;
+    border: 2px solid #78e04e;
+    caret-color: #ffff00; 
+    color: #3ce7f0; 
+}
+.dark_body #ticket {
+    background-color: #7e7e7e;
+    border: 2px solid #78e04e;
+    caret-color: #ffff00; 
+    color: #3ce7f0; 
+}
+.dark_body select {
+    background-color: #7e7e7e;
+    border: 2px solid #78e04e;
+    color: #3ce7f0;
+}
+
+.dark_body form {
+    border: 5px solid rgb(249, 3, 167);
+}
+
+.dark_body table tr:nth-child(even) {
+    background-color: #28216e;
+}
+.dark_body table tr:nth-child(odd) {
+    background-color: #140f53;
+}
+.dark_body table tr {
+    background-color: #a60909;
+    color: #32ff77;
+}
+
+.dark_body table tr th {
+    background-color: #a60909;
+    color: #f0ff4a;
+}
